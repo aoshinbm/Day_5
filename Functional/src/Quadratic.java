@@ -4,7 +4,7 @@ public class Quadratic {
     public static void main(String[] args) {
         System.out.println("Quadratic Equation");
         int a,b,c;
-        double delta=0.0,sqrt=0.0,x1=0.0,x2=0.0;
+        double delta=0.0,sqrt=0.0,x1,x2;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter number");
         a=sc.nextInt();

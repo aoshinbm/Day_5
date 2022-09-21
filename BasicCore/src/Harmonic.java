@@ -8,12 +8,13 @@ public class Harmonic {
         System.out.println("Enter number : ");
         int n=sc.nextInt();
 
- //       while (n!=0) {
-            for (int i = 0; i < n; i++) {
-                int h=i+1;
-                sum = sum + (1 /h);
-                System.out.println("Sum of harmonic series: " + sum);
-            }
-   //     }
+        int i=1;
+        while (i <=n) {
+            int s=1/(i);
+            sum = s+sum ;
+            System.out.println(sum);
+            i++;
+        }
+    //    System.out.println("Sum of harmonic series is :"+ sum);
     }
 }
